@@ -3,7 +3,7 @@ language: csharp
 solution: NitroDebugger.sln
 
 # Use the new Travis CI infrastructure
-sudo: false
+
 
 install:
   - nuget restore NitroDebugger.sln
